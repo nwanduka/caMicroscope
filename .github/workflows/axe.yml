@@ -4,10 +4,12 @@ on:
     branches:
       - master
       - develop
+      - test-axe-core
   pull_request:
     branches:
       - master
       - develop
+      - test-axe-core
 jobs:
   axe:
     runs-on: ubuntu-latest
