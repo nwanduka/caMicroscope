@@ -27,7 +27,7 @@
     "jest-environment-jsdom": "^29.7.0",
     "@axe-core/webdriverjs": "^4.1.1",
     "selenium-webdriver": "^4.0.0",
-    "chrome": "^2.0.0"
+    "chromedriver": "^114.0.0"
   },
   "jest": {
     "testEnvironment": "jest-environment-jsdom"
