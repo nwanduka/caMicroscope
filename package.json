@@ -7,6 +7,7 @@
     "test-mocha": "mocha test --recursive",
     "lint": "eslint ./core/*.js  ./components/**/*.js ./common/smartpen/*.js ./apps/*.js ./apps/port/*.js ./apps/heatmap/*.js ./apps/multi/*.js ./apps/labeling/*.js  ./apps/loader/*.js  ./apps/model/*.js  ./apps/segment/*.js  ./apps/model/**/*.js  ./apps/segment/**/*.js  ./apps/viewer/*.js --quiet",
     "lint-fix": "eslint ./core/*.js  ./components/**/*.js ./common/smartpen/*.js ./apps/*.js  ./apps/port/*.js ./apps/heatmap/*.js ./apps/multi/*.js ./apps/labeling/*.js  ./apps/loader/*.js  ./apps/model/*.js  ./apps/segment/*.js  ./apps/model/**/*.js  ./apps/segment/**/*.js  ./apps/viewer/*.js --quiet --fix"
+    "axe": "test/axe.js"  
   },
   "author": "",
   "license": "BSD-3-Clause",
@@ -24,6 +25,9 @@
   "devDependencies": {
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0"
+    "@axe-core/webdriverjs": "^4.1.1",
+    "selenium-webdriver": "^4.0.0",
+    "chrome": "^2.0.0"
   }, 
 
   "jest": {
