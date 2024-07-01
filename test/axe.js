@@ -13,7 +13,9 @@ const urlsToTest = [
 ];
 
 (async () => {
-  const chromeOptions = new chrome.Options().headless();
+  const chromeOptions = new chrome.Options();
+  options.addArguments('headless'); // Add headless argument directly
+  options.addArguments('disable-gpu'); // Disable GPU rendering
   const drivers = [];
 
   try {
